@@ -5,7 +5,7 @@ from linked_list import *
 my_linked_list = linked_list.create_linked_list([1, 2, 3, 4, 5, 6])
 
 
-def swap_nodes(head: ListNode):
+def swap_nodes(head: ListNode) -> ListNode:
     if head is not None and head.next_node is not None:
         #first swap to save new head
         cur = head
