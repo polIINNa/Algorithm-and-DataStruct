@@ -35,6 +35,4 @@ def create_simple_list(head: ListNode) -> List:
 if __name__ == '__main__':
     my_linked_list = create_linked_list([1, 2, 3, 4])
     print_linked_list(my_linked_list)
-    my_simple_list = create_simple_list(my_linked_list)
-    print(type(my_simple_list), my_simple_list)
 
